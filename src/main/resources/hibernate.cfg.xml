@@ -15,13 +15,13 @@
         <!--Creates database, if it does not exist-->
         <property name="connection.url">jdbc:mysql://localhost:3306/smsdb-ll?createDatabaseIfNotExist=true</property>
         <property name="connection.username">root</property>
-        <property name="connection.password">root</property>
+        <property name="connection.password">password</property>
 
         <!-- MySQL DB dialect -->
         <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
         <!-- print all executed SQL on console -->
-        <!--<property name="hibernate.show_sql" >true </property>-->
-        <!-- <property name="hibernate.format_sql" >true </property>-->
+<!--        <property name="hibernate.show_sql" >true </property>-->
+<!--         <property name="hibernate.format_sql" >true </property>-->
 
         <!--   Mapping entity file -->
         <mapping class="sba.sms.models.Student"/>
